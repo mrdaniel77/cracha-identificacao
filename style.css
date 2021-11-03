@@ -34,10 +34,36 @@ main {
   width: 10rem;
   height: 11.5rem;
   object-fit: cover;
+  top: 40;
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
+
+.name {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+.git {
+  color: white;
+  text-decoration: none;
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  align-items: center;
+}
+.frase {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
 .icon {
-  margin: 5px;
-  height: 16px;
-  width: 16px;
+  height: 32px;
+  width: 32px;
+  border-radius: 5px;
 }
