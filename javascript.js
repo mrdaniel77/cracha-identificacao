@@ -1,17 +1,13 @@
 const SocialMediaLinks = {
   github: 'mrdaniel77',
-  facebook: 'DANIEL.M',
-  instagram: 'DANIEL.M',
-  youtube: 'DANIEL.M',
   linkedin: 'in/daniel-monteiro-a6182a216'
 }
 
 function showSocialMediaLinks() {
-  for (let t of socialLinks.children) {
-    const social = t.getAttribute('class')
+  let t = socialLinks
+  const social = t.getAttribute('class')
 
-    t.children[0].href = `https://www.${social}.com/${SocialMediaLinks[social]}`
-  }
+  t.children[2].href = `https://www.${social}.com/${SocialMediaLinks[social]}`
 }
 
 function getGit() {
@@ -26,3 +22,7 @@ function getGit() {
 
 showSocialMediaLinks()
 getGit()
+
+function showButtons() {
+  alert('993637364')
+}

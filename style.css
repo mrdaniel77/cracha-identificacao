@@ -16,9 +16,10 @@ main {
   margin-top: 30px;
   margin-bottom: 30px;
   border-radius: 8px;
-  background: url(images/background.jpg);
-  width: 365px;
-  height: 612px;
+  background: url(images/2mob.svg) no-repeat center/cover;
+  width: 100vw;
+  min-height: 612px;
+  height: 100vh;
 }
 .container {
   max-width: 250px;
