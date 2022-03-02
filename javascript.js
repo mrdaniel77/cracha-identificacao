@@ -23,6 +23,13 @@ function getGit() {
 showSocialMediaLinks()
 getGit()
 
-function showButtons() {
-  alert('993637364')
+
+
+function showNumber() {
+  alert("  Olá, meu numero é: \n   61 99363-7364");
+}
+
+function showEmail() {
+  alert("Olá, logo abaixo está meu email :) \n    tecnicodaniel077@gmail.com"
+  );
 }
