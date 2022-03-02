@@ -26,7 +26,8 @@ main {
   margin-bottom: 30px;
   border-radius: 8px;
   background: url(images/2mob.svg) no-repeat center/cover;
-  width: 25vw;
+  max-width: 350px;
+  width: 100vw;
   min-height: 612px;
   height: 60vh;
 }
