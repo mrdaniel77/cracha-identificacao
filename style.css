@@ -12,14 +12,23 @@ body {
   --black: hsl(240, 6%, 13%);
   --grey: hsl(240, 9%, 89%);
 }
+.faixa {
+  margin-bottom: -55px;
+  z-index: 2;
+}
+.abertura{
+  margin-bottom: -100px;
+  z-index: 1;
+}
+
 main {
   margin-top: 30px;
   margin-bottom: 30px;
   border-radius: 8px;
   background: url(images/2mob.svg) no-repeat center/cover;
-  width: 100vw;
+  width: 25vw;
   min-height: 612px;
-  height: 100vh;
+  height: 60vh;
 }
 .container {
   max-width: 250px;
@@ -28,6 +37,9 @@ main {
   text-align: center;
 
   color: var(--grey);
+
+  border: white;
+  border-width: thick;
 }
 .user {
   width: 10rem;
@@ -72,4 +84,28 @@ ul {
   margin-inline: 15px;
   margin-bottom: 2rem;
   object-fit: cover;
+}
+.subinfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.info {
+  border-radius: 3px;
+  width: 6rem;
+  height: 1.5rem;
+  background-color: rgb(212, 205, 205);
+  color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -2rem;
+}
+.i {
+  background-color: aquamarine;
+  width: 6rem;
+
+  height: 1.5rem;
 }
