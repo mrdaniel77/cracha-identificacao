@@ -26,7 +26,7 @@ getGit()
 
 
 function showNumber() {
-  alert("  Olá, meu numero é: \n   61 99363-7364");
+  alert("  Olá, meu número é: \n   61 99363-7364");
 }
 
 function showEmail() {
