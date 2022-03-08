@@ -2,6 +2,7 @@
 html,
 body {
   margin: 0;
+
 }
 body {
   height: 100%;
@@ -11,6 +12,7 @@ body {
 
   --black: hsl(240, 6%, 13%);
   --grey: hsl(240, 9%, 89%);
+  background-color: rgb(0, 0, 0);
 }
 .faixa {
   margin-bottom: -55px;
